@@ -1,0 +1,23 @@
+	body{
+		background-image: url(https://cdn.shutterstock.com/shutterstock/videos/23047210/thumb/1.jpg);
+		background-size: cover; 
+	}
+	#titlebar{
+		text-align: center;
+		font-size: 70px;
+		text-shadow: 5px 5px 10px black;
+		color:rgb(19,228,247);
+		background-image: linear-gradient(to right, black 10%,white 130%);
+		background-color: rgb(4,51,56);
+		background-blend-mode: color-dodge;
+		position: fixed; top: 0px; left: 400px
+	}
+	.ButtomFX{
+		text-align: center;
+		font-size: 70px;
+		text-shadow: 5px 5px 10px black;
+		color:rgb(19,228,247);
+	}
+	.ButtomFX:hover {
+		text-shadow: 4px 3px 10px white;
+	}
