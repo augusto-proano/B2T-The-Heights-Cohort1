@@ -7,13 +7,12 @@
 		font-size: 70px;
 		text-shadow: 5px 5px 10px black;
 		color:rgb(19,228,247);
-		background-image: linear-gradient(to right, black 10%,white 130%);
-		background-color: rgb(4,51,56);
-		background-blend-mode: color-dodge;
-		position: fixed; top: 0%; left: 20%;
+		background: rgba(0,0,0, .4);
+		/*position: fixed; top: -50px; left:400px;*/
+		/*background-image: linear-gradient(to right, rgb(3,37,40) 25%,rgb(16,200,220) 150%);*/
+		/*background-blend-mode: color-dodge;*/
 	}
 	.ButtomFX{
-		font-size: 100%;
 		text-shadow: 5px 5px 10px black;
 		color:rgb(19,228,247);
 	}
