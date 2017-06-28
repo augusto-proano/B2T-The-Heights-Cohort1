@@ -5,16 +5,16 @@
 	#titlebar{
 		text-align: center;
 		font-size: 70px;
-		text-shadow: 5px 5px 10px black;
-		color:rgb(19,228,247);
-		background: rgba(0,0,0, .4);
-		/*position: fixed; top: -50px; left:400px;*/
+		text-shadow: 1px 1px 5px rgb(20,50,40);
+		background: rgba(0,0,0, .5);
+		width: 100%;
+		position: fixed; top: -0px;
 		/*background-image: linear-gradient(to right, rgb(3,37,40) 25%,rgb(16,200,220) 150%);*/
 		/*background-blend-mode: color-dodge;*/
 	}
 	.ButtomFX{
-		text-shadow: 5px 5px 10px black;
 		color:rgb(19,228,247);
+		font-family: "Finger Paint";
 	}
 	.ButtomFX:hover {
 		text-shadow: 4px 3px 10px white;
