@@ -22,6 +22,7 @@
 	.ButtomFX{
 		color:rgb(19,228,247);
 		font-family: "Finger Paint";
+		padding-right: 60px;
 	}
 	.ButtomFX:hover {
 		text-shadow: 4px 3px 10px white;
