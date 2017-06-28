@@ -2,9 +2,16 @@
 		background-image: url(https://cdn.shutterstock.com/shutterstock/videos/23047210/thumb/1.jpg);
 		background-size: cover; 
 	}
+	p{
+		color: white;
+		text-align: justify;
+		font-size: 50px;
+		text-shadow: 3px 3px 15px rgb(19,228,247);
+		font-family: "Federo";
+		}
 	#titlebar{
 		text-align: center;
-		font-size: 70px;
+		font-size: 60px;
 		text-shadow: 1px 1px 5px rgb(20,50,40);
 		background: rgba(0,0,0, .5);
 		width: 100%;
