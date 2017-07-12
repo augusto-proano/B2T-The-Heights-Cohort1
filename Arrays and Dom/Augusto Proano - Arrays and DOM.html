@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<!-- create empty HTML text element and assign it and id to linkt to the array fruits -->
+	<h1 id="text"></h1>
+		
+		<script type="text/javascript">
+			// array creation
+			var fruits = ["apple", "orange", "kiwi"];
+			
+			// creation of prompt and making it add a new element at the end of the array
+			fruits.push(prompt("Add more fruit"));
+			
+			// delete the first element of the array
+			fruits.shift();
+
+			// sort the elements including the new added
+			fruits.sort();
+
+			// display elements separated by the word "with" in HTML h1 text element 
+			document.getElementById	("text").innerHTML = fruits.join(" with ")
+		</script>
+	</body>
+</html>
