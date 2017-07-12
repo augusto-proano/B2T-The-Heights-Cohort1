@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Hello my name is...
+		</title>
+		<style type="text/css">
+			body{
+				/*font and body style and appearance*/
+				background-image: url(https://cdn.shutterstock.com/shutterstock/videos/23047210/thumb/1.jpg);
+				background-size: cover; 
+				color: white;
+				text-align: center;
+				font-size: 70px;
+				text-shadow: 6px 4px 15px rgb(19,228,247);
+				font-family: "Finger Paint";
+			}
+		</style>
+		<!-- link to font style -->
+		<link href="https://fonts.googleapis.com/css?family=Finger Paint" rel="stylesheet">
+	</head>
+	<body>
+	<h2>Hello my name is</h2>
+	<h1 id="name"></h1>
+
+		<script type="text/javascript">
+			// changes h2 element to user input
+			document.getElementById("name").innerHTML = prompt("Enter Name");
+		</script>
+	</body>
+</html>
