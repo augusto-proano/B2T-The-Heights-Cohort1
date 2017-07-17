@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<!-- create an empty text tag with and id in order to refer ot it -->
+		<h1 id="text"></h1>
+
+		<script type="text/javascript">
+			
+			// create a var with today's day 
+			var date = new Date();
+
+			// get today's day index number and depending on that will be displayed the day of the week assigned to each number in every case
+			switch(date.getDay()){
+				case 0: document.getElementById("text").innerHTML = ("Sunday");
+				break; 
+				case 1: document.getElementById("text").innerHTML = ("Monday");
+				break; 
+				case 2: document.getElementById("text").innerHTML = ("Tuesday");
+				break; 
+				case 3: document.getElementById("text").innerHTML = ("Wednesday");
+				break; 
+				case 4: document.getElementById("text").innerHTML = ("Thursday");
+				break; 
+				case 5: document.getElementById("text").innerHTML = ("Friday");
+				break; 
+				case 6: document.getElementById("text").innerHTML = ("Saturday");
+				break; 
+			}
+
+
+	</script>
+	</body>
+</html>
