@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+	<script type="text/javascript">
+		
+		// Initialization of the loop
+		var i = 0;
+
+		// while statement
+		// condition that indicates that the loop iterates the integers from 1 to 100
+		while(i <= 100){
+			// this condition checks for number multiples of 3 and 5 and displays FizzBuzz instead of the number
+			if(i%3==0 && i%5==0){
+				console.log("FizzBuzz");
+			}
+
+			// this condition checks for number multiples of 3 and displays Fizz instead of the number
+			else if(i%3==0){
+				console.log("Fizz");
+			}
+
+			// this condition checks for number multiples of 5 and displays Buzz instead of the number
+			else if(i%5==0){
+				console.log("Buzz");
+			}
+
+			// condition that makes display the actual number if it is not mutiples of 3 or 5
+			else{
+				console.log(i);
+			}
+
+			// Incrementation of the loop
+			i++;
+		}
+	</script>
+	</body>
+</html>
