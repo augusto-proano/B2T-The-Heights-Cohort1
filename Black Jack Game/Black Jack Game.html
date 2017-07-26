@@ -3,15 +3,57 @@
 	<head>
 		<title></title>
 
-		<style type="text/css">
+<!-- 		<style type="text/css">
 			body{
 				background:url(https://i.ytimg.com/vi/g-BWdaYlw38/maxresdefault.jpg);
 				background-size: cover;
 
 			}
-		</style>
+		</style> -->
 	</head>
 	<body>
-	<h2 align="center" > <img width="300" style="box-shadow: 0px 0px 30px 20px rgb(12, 255, 7);" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cards-A-Heart.svg/428px-Cards-A-Heart.svg.png"> </h2>
+		<h1>Dealer</h1>
+		<h2 id="dealertext"></h2>
+		<h1>Player</h1>
+		<h2 id="playertext"></h2>
+
+	<!-- <h2 align="center" > <img width="300" style="box-shadow: 0px 0px 30px 20px rgb(12, 255, 7);" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cards-A-Heart.svg/428px-Cards-A-Heart.svg.png"> </h2> -->
+
+			<script type="text/javascript">
+			function getRandomNumbersDealer(){
+				var num1 = parseInt(Math.random()*13);
+				var num2 = parseInt(Math.random()*13);
+			
+				return num1 + ", " + num2;
+			}
+			document.getElementById('dealertext').innerHTML = getRandomNumbersDealer();
+
+			function getRandomNumbersPlayer(){
+				var num1 = parseInt(Math.random()*13);
+				var num2 = parseInt(Math.random()*13);
+				
+				return num1 + ", " + num2;
+			}
+			document.getElementById('playertext').innerHTML = getRandomNumbersPlayer();
+
+
+			// var dealer = {
+			// 	num1: parseInt(Math.random()*(12-2)) + 1, 
+			// 	num2: parseInt(Math.random()*13),
+			// }
+			// var player = {
+			// 	num1: parseInt(Math.random()*13), 
+			// 	num2: parseInt(Math.random()*13),
+			// }
+
+			// for(i in dealer){
+			// 	document.getElementById('dealertext').innerHTML = dealer[i];
+			// }
+			// for(i in player){
+			// 	document.getElementById('playertext').innerHTML = player[i];
+			// }
+		</script>
 	</body>
 </html>
+		
+		
