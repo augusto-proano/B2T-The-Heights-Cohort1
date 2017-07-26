@@ -8,9 +8,11 @@
 		<form>
 			First Name: <input type="text" id="fname" placeholder="Enter First Name">
 			Last Name: <input type="text" id="lname" placeholder="Enter Last Name">
+			<!-- Buttom that makes function works as soon as the user clicks on it, the one that submit data the user inputted previously  -->
 			<input type="button" value="Submit" onclick="getFormValue()">
 		</form>
 		<script type="text/javascript">
+			// Function that gets HTML data and displays the input data 
 			function getFormValue(){
 				var fname = document.getElementById('fname').value;
 				var lname = document.getElementById('lname').value;

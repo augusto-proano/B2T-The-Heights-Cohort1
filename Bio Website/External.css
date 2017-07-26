@@ -19,17 +19,17 @@
 		/*background-image: linear-gradient(to right, rgb(3,37,40) 25%,rgb(16,200,220) 150%);*/
 		/*background-blend-mode: color-dodge;*/
 	}
-	.ButtomFX{
+	.ButtonFX{
 		color:rgb(19,228,247);
 		font-family: "Finger Paint";
 		padding-right: 60px;
 	}
-	.ButtomFX:hover {
+	.ButtonFX:hover {
 		text-shadow: 4px 3px 10px white;
 	}
-	.ContactButtomFX{
+	.ContactButtonFX{
 		filter: grayscale(90%);
 	}
-	.ContactButtomFX:hover{
+	.ContactButtonFX:hover{
 		filter: grayscale(0%);
 	}
