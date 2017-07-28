@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Black Jack Game</title>
 
 		<style type="text/css">
-			/*body{
+			body{
 				background:url(https://i.ytimg.com/vi/g-BWdaYlw38/maxresdefault.jpg);
 				background-size: cover;
 			}
 			input{
-				background-color: green;
+				background-image: linear-gradient(45deg, rgb(11, 51, 13) 40%,rgb(26, 216, 161) 150%);*/
+				background-blend-mode: color-dodge;
 				font-size: 30px;
 				padding: 10px;
+				font-family: "Finger Paint";
+				text-shadow: 0px 0px 5px rgb(12, 255, 7);
 				color:black;
+				width: 200px;
+				height: 100px;
+				font-size: 50px;
 			}
 			input:hover{
-				box-shadow: 0px 0px 10px 5px rgb(12, 255, 7);
-				color: white;
-			}*/
+				box-shadow: 0px 0px 15px 5px rgb(12, 255, 7);
+				color:white;
+			}
+			h1, h2{
+				font-size: 110px;
+				
+				color:white;
+				text-shadow: 0px 1px 1px #ddd,
+                     0px 2px 1px #d6d6d6,
+                     0px 3px 1px #ccc,
+                     0px 4px 1px #c5c5c5,
+                     0px 5px 1px #c1c1c1,
+                     0px 6px 1px #bbb,
+                     0px 7px 1px #777,
+                     0px 8px 3px rgba(100, 100, 100, 0.4),
+                     0px 9px 5px rgba(100, 100, 100, 0.1),
+                     0px 10px 7px rgba(12, 255, 7, 0.15),
+                     0px 11px 9px rgba(12, 255, 7, 0.2),
+                     0px 12px 11px rgba(12, 255, 7, 0.25),
+                     0px 13px 15px rgba(12, 255, 7, 0.3);
+			}
+			h2{
+				font-size: 70px;
+			}
 		</style>
+
+		<link href="https://fonts.googleapis.com/css?family=Finger Paint" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Dealer</h1>
-		<h2 id="dealertext"></h2>
-		<h1>Player</h1>
-		<h2 id="playertext"></h2>
-		<input type="button" value="START">
-		<input type="button" value="HIT" onclick="addNumber()">
-		<input type="button" value="STAY">
+	
+		<div style="float: left; width: 800px" align="center">
+			<h1>Dealer</h1>
+			<h2 id="dealertext"></h2>
+		</div>
 
+		<div style="float: right; width: 800px" align="center">
+			<h1>Player</h1>
+			<h2 id="playertext"></h2>
+		</div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<div align="center">
+			<input type="button" value="START"> 
+				<a style="padding-right: 5px" ></a>
+			<input type="button" value="HIT" onclick="addNumber()">
+				<a style="padding-right: 5px" ></a>
+			<input type="button" value="STAY">
+		</div>
+		
 	<!-- <h2 align="center" > <img width="300" style="box-shadow: 0px 0px 30px 20px rgb(12, 255, 7);" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cards-A-Heart.svg/428px-Cards-A-Heart.svg.png"> </h2> -->
 
 			<script type="text/javascript">
